@@ -1,0 +1,4 @@
+Group for space LoRa:
+https://tinygs.com/
+https://github.com/G4lile0/tinyGS
+

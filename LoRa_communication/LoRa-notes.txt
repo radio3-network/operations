@@ -1,0 +1,23 @@
+
+
+two way SMS with LoRa and bluetooth:
+https://www.electroniclinic.com/arduino-lora-free-sms-over-long-distance-without-gsm-network-lora-bluetooth/
+
++ Explains how to create a packet sent to a specific address
++ bluetooth communication to a phone
+
+Showing how to use a display:
+https://create.arduino.cc/projecthub/eEdizon/arduino-radio-communication-nrf24l01-0fec7a
+
+
+Hardware: Disaster radio project:
+https://www.aliexpress.com/item/4000396836096.html?algo_exp_id=1e32528b-54c0-47bd-8395-7eb18322bb2c-18&pdp_ext_f=%7B%22sku_id%22%3A%2212000031556978312%22%7D
+https://www.youtube.com/watch?v=uZkGudvjNzw
+LILYGO® Disaster-Radio LoRa V2.1_1.6.1 ESP32 433/868/915Mhz WIFI Wireless Bluetooth Module 0.96 Inch OLED SD Development Board
++ 19 euros for the board
++ has twitter like interface
++ https://disaster.radio/
++ https://github.com/sudomesh/disaster-radio?
+
+LoRa as FM radio
+https://hackaday.io/project/166438-lora-based-fm-voice-communication/details

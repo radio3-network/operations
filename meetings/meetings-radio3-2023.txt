@@ -1,0 +1,10 @@
+2023-02-22
+==========
+Max Brito, Felix Biego
+
++ Possible OS to merge as base
+++ https://github.com/AlixANNERAUD/Xila
+++ roadmap to use LVGL in the future
+++ author was contacted
++ location of prototype source code
+++ Felix to upload first demo
