@@ -1,0 +1,676 @@
+
+
+Uma estação rádio que é gratuita e disponiliza os seguintes serviços:
+
++ email (interno, externo)
++ chat (com lista de contactos)
++ tuíter local
++ fórum
++ blog
++ rádios
++ telefone
++ diretório (pessoas, locais, orgs)
++ partilha de ficheiros, imagens e gravações
++ mapa de localizações relevantes
++ notícias/eventos locais
++ mercado local (vegetais, serviços, voluntariado, etc)
++ temperatura/humidade locais
++ pagamento por criptomoedas (monero, beam tokens)
++ páginas web com templates (apresentar comunidades locais)
+++ perfil individual
+++ perfil de casa
+++ perfil de comunidade/orgs
+++ incluir outros contactos (telefone, morada, coordenadas, etc)
++ biblioteca (livros, manuais, filmes por tópicos)
+
+
+
+Integrações:
++ web normal (através de radio3.pt)
++ telegram
++ facebook?
++ twitter?
++ mastodon?
+
+
+*** Características
+
++ custo de material nos 100 euros
+
+
+
+
+
+*** Parte técnica
+
+Ligações
++ LoRa + Arduino
++ Internet
+
+Equipamento
++ estação repetidora
++ equipamento local gratuito
+++ equipamento de extensão
+
+
+Estação repetidora
++ energia solar
++ bateria para 3 dias sem sol
++ medição de temperatura, humidade, exposição solar
++ câmara para fotos periódicas
+
+
+
+== Equipamento local ==
+
+Parte 1: controlo
++ ecrã táctil
+++ preferência e-ink
++ caixa em madeira
++ baterias AA recarregáveis (x4)
++ fio de rede para ligar antena/alimentação
++ altifalante
++ microfone
+
+
+Parte 2: Antena
++ antena externa de longo alcance
++ painel solar
++ medição temperatura/humidade
++ MPTT dos chineses com saída USB
+++ como isto sai caro, circuito pequeno rende mais
++ câmara para tirar fotos da natureza
+
+
+
+
+=== Cellphone ===
+
++ Printed in wood+plastic combination
++ Transparent plastic to protect screen
++ push buttons also in wood
++ powered by two AA rechargeable batteries
++ e-Ink display
+++ with backlight
++ Solar painel
+++ enough to charge the two batteries
+++ protected by transparent plastic
+
+** front lights/sensors
++ flashlight (programable multi-color led)
++ uvc led (germ sterilization)
++ infrared receiver/emitter (for TV control)
++ led laser pointer
++ PIR Motion Sensor
+x night vision camera
++ lightning detector?
+
++ microphone
++ speaker with loud speaker mode
++ piezo buzzer
++ neodimium magnets (attach phone to surfaces)
++ NFC read/write
++ wifi / bluetooth
++ usb-c for charging
++ aim for visually impaired support
+++ voice recognition and text to voice
++ vibration motor for notifications
++ vibration sensor
+x super-capacitor as backup battery
++ temperature sensor
++ extension port available (molex with DAC)
+
+
+Outside shell
+
++ 3d printed
++ outside faces made of wood/plastic
++ middle face with plastic that shines in dark
++ metal screws for opening and closening
++ transparent plastic for scratch protection
+++ protect display, solar panel, lights
++ lid for water protection on usb charger
+
+Keyboard
++ direction keys
++ OK / back buttons
++ power on/off
++ gameboy style
+
+
+//// core functionality
+
+App: Library
++ common text files and tutorials
+++ available from the gateway
++ HTML-based documents
+++ include text
+++ include images/animations
++ choose regions/favorites
++ Install/update/remove apps
++ Can install from 3rd party
+
+App: Files
++ can read/write text files
+++ optionally simple excel/csv files
++ Play media files
++ Share files with nearby contacts
++ Synchronize selected files/folders
+++ with contacts
+
+App: Walkie-talkie
++ choose a contact
++ press the OK button to talk
++ records a voice message and sends
+
+App: Navigator
++ People nearby
+++ lists distance to contacts nearby
++ Places nearby
+++ uses curated list of places on region
++ show distance and orientation
+++ initially not realtime
+
+App: Email
++ worldwide coverage
++ relayed by other gateways
++ hosted on device itself
++ limit to 20 MB
++ similar to winlink.org
+
+App: Chat
++ Chat with nearby/available users
+++ group chats
+++ notifications
++ communicate offline to other messengers at reach
+++ without LoRaWan gateway when not available/desired
+++ prefers direct link when contacts are at reach
++ send/share files/folders through chat
+
+App: Media player
++ play music from SD card (e.g. mp3)
++ see pictures, small videos
+
+App: NFC
++ NFC functionality
++ share cards with contacts
++ card feature (accept/deny access (to events, places)
++ add icons/description to cards
++ add time limit for shared cards
++ QR code reader/writer
+
+App: Backup
++ backup apps/docs/preferences to region server
++ data encrypted on server by user-defined password
++ periodic/scheduled
++ when moving to new device
++ synchronize preferences on multi-device
+
+App: Wifi
++ Hotspot
+++ share files through wifi
+++ web browser with region services
+++ chat
+++ news
++ use local wifi to reach gateway
+++ useful when away from LoRa network
+++ preference to LoRa when available
+++ auto-connect to known wifis
+++ global wifi login functionality
+
+App: Radio
++ listen to FM radio
+++ automatically search and add list with RDS
++ listen to LoRa radio stations
+++ fixed channel emission
+
+App: TV remote
++ create TV remotes
+++ learn IR buttons
+++ play IR buttons
+
+App: Automation
++ macro functions
+++ press remote control button from TV
+++ perform specific action
+++ e.g. send message on specific chat
+++ play a music playlist
+++ turn off lights
++ shake phone
+++ activate button or action
++ motion detection with IR receiver/sender
++ make device speak specific texts
+
+App: Console
++ run linux-like commands from CLI
++ launch CLI apps, see output
++ permit remote session (e.g. telenet)
++ text files with scripting language
++ use available sensors
+++ either directly from pin output
+++ or using alias for defined sensors
+
+/// Added features
+
+
+App: Screenshot
++ take screenshots of screen
++ optionally make animated videos
++ hotkey to start/pause recording
++ can include pictures from camera
+
+App: Geocaching
++ submit geocaching places to discover
+++ include description/difficulty
+++ update status (active, inactive)
++ log discovery by user
++ give score
++ add comments
+
+App: News
++ see news from contacts and region
++ twitter-like announcents, comments and votes
++ submit events
+++ set reminders (for day/hour)
+++ rate event
+++ permit recurring periodic events
+++ add ratings/comments
+
+App: Podcast
++ hear podcasts
+++ from contacts, topics, regions
++ editor for creating podcasts
+++ can include start/ending sequence
+++ include sound effects while recording
+++ can include summary before intro sound
+++ image cover for screenshot
++ Whisper on gateway-level
+++ create subtitles/text version
+++ create translations
++ include tags (region, date, topics, age level)
++ add feedback (likes, #plays, comments)
++ set time limits (e.g. 5 minutes)
+++ visualize time progress
++ includecontroller podcast tips
+
+App: Games
++ Snake
++ Bantumi
++ Chess (1v1 and alone)
++ Memory (Simon)
++ Slay
++ Gameboy emulator
++ Piano teacher/player
++ Cards (patience, blackjack)
+
+App: Wallet
++ Monero and Bitcoin wallet
++ Possibly other coins
++ synchronizes to region server
++ Receive payments
+++ generate QR code on screen
+++ connect through NFC
+++ show equivalent in local fiat currency
++ Make payments
+++ through NFC contact
+++ through chat message
+
+App: Weather
++ temperature on nearby stations
++ weather prediction next days/hours
++ graphs of rain/temperature
+
+App: Timer
++ Time of the day
++ Countdown and stopwatch timers
++ Wake up Alarm
++ Synchronized timer
+++ synchronize with selected contacts
+++ joint warning/notifications
+
+App: Extras
++ Laser pointer
++ UVC germicide
++ Flashlight
++ Multicolor RGB/pattern
++ Dog whistle (using piezo buzzer)
++ Mosquito/Roedent repellent (using piezo buzzer)
++ Human approaching alarm
+
+App: Hardware Integrations
++ Garmin
+++ Send map location to Garmin
+++ receive text notifications on Garmin
+
+App: Software Integrations
++ Telegram (read/write messages)
++ IRC (read/write messages)
+++ keep-alive, auto-register/login
++ email (read/write messages)
+++ based on IMAP
++ twitter and mastodon instances
+++ read/write/fav/retweet posts
+
+App: Chatbot
+++ Connect to chatGPT
+++ answer to voice questions from user
+++ translate text
+++ send reply as text message
+
+App: Wallpaper
++ show time, temperature average
++ when sun sets/raises
++ people nearby
++ notifications from news/chats/etc
++ configurable by user
+
+App: Birthdays
++ visualize contact birthdays
++ not including birth year
++ notify 3 days before
++ notify on same day
++ send greeting message/voice
++ view greetings from past years
+
+App: Marketplace
++ sell local products/services
++ connect farmers to buyers
++ remote payment with crypto currency
+
+
+
+*** LoraWan standalone server
+https://github.com/xoseperez/standalone-lorawan-gateway-balena
+https://www.chirpstack.io/
+
+*** Updates OTA for ESP32
+https://hackaday.com/2022/12/13/push-esp32-over-the-air-updates-from-github/
+
+*** ESP32 as LoRaWan gateway
+https://emanuelepagliari.it/2020/10/12/how-to-build-lorawan-gateway-heltec-esp32-lora/
+
+
+*** ExFat support on ESP32
+http://elm-chan.org/fsw/ff/00index_e.html
+
+
+*** Voice recording/playback
+https://en.wikipedia.org/wiki/Opus_(audio_format)
+https://github.com/mkopa/opus-codec-arduino
+
+*** Anti-teenager sound:
+https://www.youtube.com/watch?v=MbYKhEtCRIs
+
+*** Menu library for Arduino/RTos
+https://lvgl.io/
+https://github.com/davetcc/tcMenu
+http://embeddedlightning.com/ugui/
+
+*** Sub-gHz antenna modulation
+https://github.com/antirez/protoview
+
+*** Creating TV signal by cable (good for games)
+https://bitluni.net/esp32-composite-video
+
+*** More recent TV signal method:
+https://github.com/aquaticus/esp32_composite_video_lib
+
+*** Creating VGA signal by cable
+https://github.com/bitluni/ESP32VGA
+https://github.com/marciot/ESP32CompositeColorVideo
+
+*** AM radio transmitter (no extra hardware)
+https://github.com/bitluni/ESP32AMRadioTransmitter
+https://bitluni.net/am-radio-transmitter
+
+*** Broadcasting TV signal
+https://github.com/cnlohr/channel3
+
+*** Teletext
+https://github.com/peterkvt80/vbit2
+https://github.com/xavery/ttxinfo
+https://github.com/debackerl/telxcc
+
+
+*** VHF/UHF transceiver
+100 EUR
+https://www.kickstarter.com/projects/749835103/hamshield-for-arduino-vhf-uhf-transceiver
+https://www.hobbypcb.com/products/uhf-vhf-radio/rs-uv3a
+
+*** Emulate DOS/FreeDOS on ESP32
+http://www.fabglib.org/index.html
+https://www.youtube.com/watch?v=P_kpwbIkFjo
+
+*** ESP32 8-bit game arcade
+https://www.youtube.com/watch?v=Ra-IzbRg0bM
+https://www.crowdsupply.com/byte-mix-lab/microbyte
+https://github.com/jfm92/microByte
+
+*** ESP32 play Doom
+https://www.youtube.com/watch?v=y6PP_IBbOTY
+https://github.com/jkirsons/doom-espidf
+
+*** Flash Arduino using Java
+https://www.esp32.com/viewtopic.php?t=13853
+
+*** Compile Java code to run on arduino
+https://developer.microej.com/microej-sdk-software-development-kit/
+
+*** Compile C code to run on ESP32
+https://www.codeproject.com/Articles/5061494/Run-a-C-Language-Interpreter-on-Your-ESP32
+
+*** Virtual Machines
+https://github.com/juiceRv/JuiceVm
+https://github.com/fdivitto/FabGL
+https://haiku-vm.sourceforge.net/
+
+*** Bash environment on ESP
+https://github.com/dani007200964/Shellminator
+http://sebastian-duell.de/en/microbox/usage.html
+
+*** SSH server/client in ESP32
+https://registry.platformio.org/libraries/ewpa/LibSSH-ESP32
+
+*** ESP32 deauther
+https://github.com/GANESH-ICMC/esp32-deauther
+
+*** ESP32 create spam wireless lans (and send random wifi packets)
+https://github.com/Jeija/esp32-80211-tx
+
+*** Operating system for ESP32
+https://github.com/AlixANNERAUD/Xila
+https://github.com/renamedquery/esp32-pc
+https://github.com/PQCraft/EZBCOS
+https://github.com/botofancalin/M5Stack-MultiApp-Advanced
+
+*** VNC and multi-environment
+https://github.com/0015/ESP32Berry
+
+
+
+### Others
+Arduino simulator
+https://wokwi.com/
+
+
+// home automation
+https://esphome.io/
+
+// sat transceiver
+https://www.sparkfun.com/products/21287
+https://swarm.space/product/swarm-asset-tracker/
+https://othernet.is
+
+// autonomous network
+https://unsigned.io/website/rnode/
+https://reticulum.network/
+https://github.com/markqvist/lxmf
+https://github.com/markqvist/nomadnet
+https://markqvist.github.io/Reticulum
+
+
+*** LVGL menus and operating system
+// wifi and status bar
+https://www.youtube.com/watch?v=r62vfOhWXeo
+https://github.com/0015/ThatProject/tree/master/ESP32_LVGL/LVGL8/3_BaseProject_Network_Selector
+// tutorial explaining LVGL menus and status bar
+https://www.youtube.com/watch?v=CfsUQE495iA
+// excellent phone-like menu
+https://www.youtube.com/watch?v=HOP7OMvAePs
+https://github.com/fbiego/Lumia-ESP32
+
+
+
+##### Partners
+
+https://frn.dc4fs.de/
+https://github.com/jfm92/microByte
+https://en.wikipedia.org/wiki/Cybiko
+https://www.patrick-breyer.de/en/posts/chat-control/
+
+
+#### Device designation
+
++ each device model starts with one specific letter
++ defines CPU architecture
++ OS uses X.Y numbering
++ libraries/apps use semver
++ device codename is separated from software
++
+
+
+Types of device models
++ M = mobile handheld
+++ MM = mobile minimal
+++ ME = mobile e-paper
+++ MW = mobile wrist
++ H = home/house
++ A = Auto/wheels
+++ AUTO = cars
+++ AM = motorbikes
+++ AB = bikes
++ A = airplane/flying
+++ AIR = airplane
+++ AD = drone
++ N = nautic
+++ NV = vessel
+++ NS = submarine
++ G = gateway/repeater
++ S = server/bridge
++ B = beacon
++ S = space-related
++ SGS = ground station
++ SAT = satellite
+
+
+Examples:
+Radio3 MM-1.0
+Radio3 ME-1.0
+
+
+
+##### Feedback
+
+"The glaring problem, sadly, is that there's nothing you can actually _do_ with it. There were no games of any quality, and the mesh networking would only work over a short range and if somebody else had one, which meant that feature was useless in the suburbs."
+
+"This was my first big purchase in life, when I was 12. When i brought it to school, I would discover the 2 other students who also had a cybiko through its wireless network, and chat and play games with them. It was really cool and a special club to be in."
+
+"That was something I was hoping we will get on Apple Watch walkie-talkie feature. Unfortunately the features depends on having a stable internet connection and never worked for me reliably. The world needs more P2P."
+
+"It's amazing how P2P basically doesn't exist anywhere. Open source got taken over completely by federated/self hosted, or Blockchain. We have really good long range Bluetooth and LoRa and yet there is not one decent affordable alternative to decades old analog FRS after all this time."
+
+"It is like a crime against all of technology that there is no equivalent of this today.
+We have smartphones, but battery life sucks and they have no real local mesh support, and no expansion port. We have lots of dev boards, but no real finished products without exposed PCBs, and with a proper app-capable OS. And the ones that are reasonably polished are far too expensive for a semi-novelty. The closest is maybe... pwnagotchi? A graphing calc?
+
+I just want like, a little ESP32 handheld, with an m.2 slot or something in the traditional place for cartridges, and the ability to run apps from files on SD cards(Even if they're just MicroPythons). But somehow all the "Hacker's handhelds" and the like seem to go nowhere, and are basically just an Arduino with a screen, meanwhile phones never get the expansion pack and local mesh capabilities the cybiko had. Cybiko was a lot of fun. It would have been better with some AAA games, but it was still awesome."
+
+
+
+Links:
+https://www.youtube.com/watch?v=ojatBoMZubk
+https://news.ycombinator.com/item?id=30485353
+
+
+
+
+Peças candidatas:
+
+
+*** Combo
+46.41€ (37,15 + 9,26) LILYGO T5 4.7 inch E-Paper ESP32 Development Board Ink Screen Display Module ESP32-WROVER-E 16MB FLASH 8MB PSRAM WIFI Bluetooth
+https://www.aliexpress.com/item/1005002116919184.html?aem_p4p_detail=20230106074942598179120840000004300778&algo_exp_id=2dcc9fdd-e98b-4153-ab87-314fd235dd27-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000018795984638%22%7D&ad_pvid=20230106074942598179120840000004300778_3&ad_pvid=20230106074942598179120840000004300778_3
+2023-01-09: updated price to 34.39€
+
+18.59€ (11,03 + 7,56) LILYGO T5-4.7 inch E-paper ESP32 V3 Version Capacitive Touch Cover 16MB FLASH 8MB PSRAM WIFI/Bluetooth for Arduino
+https://www.aliexpress.com/item/1005002272555887.html?gps-id=pcDetailBottomMoreThisSeller&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.291025.0,pvid:86f98735-24a6-4613-aadc-65430534ea6d,tpp_buckets:668%232846%238113%231998&pdp_ext_f=%7B%22sku_id%22%3A%2212000022167838227%22%2C%22sceneId%22%3A%223339%22%7D
+
+6.34€ LoRa 868MHz 915MHz LLCC68 Wireless Module 22dBm Long Range 5km CDEBYTE E220-900T22D SMA-K UART RSSI Transmitter Receiver DIP
+https://www.aliexpress.com/item/1005002116919184.html?aem_p4p_detail=20230106074942598179120840000004300778&algo_exp_id=2dcc9fdd-e98b-4153-ab87-314fd235dd27-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000018795984638%22%7D&ad_pvid=20230106074942598179120840000004300778_3&ad_pvid=20230106074942598179120840000004300778_3
+
+
+71.34€ for the three basic modules
+
+
+*** Screens
+
+19,97€ 1.54 Inch 4 Grayscale E-Paper Display With Frontlight Eink Screen, GDEW0154T8-FL
+https://www.aliexpress.com/item/4000202574621.html
+
+
+13,80€ 1.54'' Epaper 200x200 SPI Cheap E-ink Display, GDEW0154T11 (200x200)
+https://www.aliexpress.com/item/1005003790815924.html
+
+28,37€ 4.2 Inch E-Ink Panel SPI Interface Buy 4 Grayscale Epaper Display, GDEW042T2
+https://www.aliexpress.com/item/32812327103.html?algo_exp_id=1c951103-3ed8-4f1c-9430-5086965c10e3-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000020930355822%22%7D
+
+
+19,72€ 2.66inch SPI 3-Color E Paper Epaper Eink E-ink E-Paper Screen Display Module for Arduino Raspberry Pi Zero 2 W WH 3A 3B Plus 3 4
+https://www.aliexpress.com/item/1005001852222187.html?gps-id=pcDetailBottomMoreThisSeller&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.291025.0,pvid:c80c0634-4273-424a-b275-4c979df11bde,tpp_buckets:668%232846%238110%231995&pdp_ext_f=%7B%22sku_id%22%3A%2212000017858875016%22%2C%22sceneId%22%3A%223339%22%7D
+
+
+
+*** Solar panels
+
+1.55€ 98x63 mm solar panel
+https://www.aliexpress.com/item/1005002777632698.html?algo_exp_id=4590d8dc-6c4d-42a2-ab15-36c787febf7f-16&pdp_ext_f=%7B%22sku_id%22%3A%2212000022139931386%22%7D
+
+16.00 € 1W 6V Flexible Solar Panel Small Thin Amorphous Silicon Solar Cell Waterproof Camping Portable Power Solar Panel for Light Phone
+https://www.aliexpress.com/item/1005002808274737.html?gps-id=pcDetailBottomMoreOtherSeller&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.320561.0,pvid:5cf26341-d0cd-4cc5-9edf-395cf2a443cd,tpp_buckets:668%232846%238110%23373&pdp_ext_f=%7B%22sku_id%22%3A%2212000022282791254%22%2C%22sceneId%22%3A%2230050%22%7D
+
+
+1.27€ AAA Battery Step Up to 5V Power Converter Module for Arduino
+https://www.aliexpress.com/item/32840471284.html?algo_exp_id=0d318cbc-06ac-4ffc-b05c-eed0f292ab32-34&pdp_ext_f=%7B%22sku_id%22%3A%2265098526413%22%7D
+
+
+5V DC DC Converter Step Up Power Supply DC-DC Booster Boost Buck Converter Board Step-Up 500MA Voltage Regulator 1V-5V to 5V
+2.25€ https://www.aliexpress.com/item/32813355879.html?aem_p4p_detail=202301030140566407151039941540000262270&algo_exp_id=e7fb92a6-d931-4899-a1af-e2b800723c21-1&pdp_ext_f=%7B%22sku_id%22%3A%2264552758650%22%7D&ad_pvid=202301030140566407151039941540000262270_2&ad_pvid=202301030140566407151039941540000262270_2
+
+*** Sensors
+
+2.50 € PIR led 1pcs HC-SR505 Mini Infrared PIR Motion Sensor Precise Infrared Detector Module For Arduino Body Sensor Switch Module Sensing:
+https://www.aliexpress.com/item/1005002969815153.html?aem_p4p_detail=202212301514284970052950069430014760355&algo_exp_id=5c282359-db7c-439f-ab15-41e517d82f5a-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000023030130119%22%7D&ad_pvid=202212301514284970052950069430014760355_2&ad_pvid=202212301514284970052950069430014760355_2
+
+25,10 € Sensor de Raios/Relâmpagos (AS3935) compatível com Arduino - DFRobot SEN0290
+https://mauser.pt/catalog/product_info.php?cPath=1667_2669_2671&products_id=095-0749
+
+
+17.42€ Heltec Lora Node ASR650x CubeCell Module/Development board 433MHZ/868-915MHZ for arduino/Lora sensors waterproof IP67
+
+32.17€ 2 pieces CubeCell Lora Node ASR6502 LoRa with 1 / 2AA battery case LoRaWAN node apps for arduino with antenna and connector
+https://www.aliexpress.com/item/4001219888480.html?algo_exp_id=679a31b1-6ee9-4c20-bbd6-1e5eb331ee65-31&pdp_ext_f=%7B%22sku_id%22%3A%2210000015341499508%22%7D
+
+
+55.54€
+LILYGO® T-Echo NRF52840 SX1262 433 / 868 / 915MHz Module LORA GPS 1.54 E-paper BLE NFC for Arduino
+https://www.aliexpress.com/item/1005002870936996.html?gps-id=pcDetailBottomMoreOtherSeller&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.320561.0,pvid:eb752a30-4a93-43ee-9c9b-cd9d8c9db858,tpp_buckets:668%232846%238110%23373&pdp_ext_f=%7B%22sku_id%22%3A%2212000022561082653%22%2C%22sceneId%22%3A%2230050%22%7D
+
+31.99€ DollaTek LoRa32 V2.1 868MHz ESP32 LoRa SD Card WiFi Wireless Module with SMA IP5306 0.96 Inch OLED
+https://www.amazon.de/-/en/gp/product/B07RWYJQPT/ref=ox_sc_act_title_2?psc=1
+
+
+6.70€ 5PCS Deep LED Diode UVC SMD LED 3535 UVC 270nm 280nm 3~6mW Chip Ultraviolet Light Beads
+https://www.aliexpress.com/item/1005004897087950.html?aem_p4p_detail=202212301155178757628550149710011152371&algo_exp_id=349b8ac0-e04c-4adb-b6b3-1738649bb081-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000030936857181%22%7D&ad_pvid=202212301155178757628550149710011152371_3&ad_pvid=202212301155178757628550149710011152371_3
+
+2.60€ 2pcs 650nm 5mw Laser Diode Module Red Color TO-18 DIY Laser Sensor Diode 2.2-2.4V LED Electronics Design
+https://www.aliexpress.com/item/1005001714710739.html?algo_exp_id=6447d058-69be-45bd-9929-d4fbb5afd8f8-13&pdp_ext_f=%7B%22sku_id%22%3A%2212000017266545749%22%7D
+
