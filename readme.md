@@ -552,18 +552,19 @@ https://github.com/botofancalin/M5Stack-MultiApp-Advanced
 
 
 # Other links
+
 ### Arduino simulator
 https://wokwi.com/
 
-### home automation
+### Home automation
 https://esphome.io/
 
-### sat transceiver
+### Sat transceiver
 https://www.sparkfun.com/products/21287
 https://swarm.space/product/swarm-asset-tracker/
 https://othernet.is
 
-### autonomous network
+### Autonomous network
 https://unsigned.io/website/rnode/
 https://reticulum.network/
 https://github.com/markqvist/lxmf
@@ -626,8 +627,8 @@ https://www.patrick-breyer.de/en/posts/chat-control/
 
 
 ### Examples
-Radio3 MM-1.0
-Radio3 ME-1.0
++ Radio3 MM-1.0
++ Radio3 ME-1.0
 
 
 
