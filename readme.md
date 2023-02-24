@@ -635,24 +635,24 @@ Radio3 ME-1.0
 
 Feedback collected from people around the internet about this kind of device.
 
-+ > "The glaring problem, sadly, is that there's nothing you can actually _do_ with it. There were no games of any quality, and the mesh networking would only work over a short range and if somebody else had one, which meant that feature was useless in the suburbs."
+> "The glaring problem, sadly, is that there's nothing you can actually _do_ with it. There were no games of any quality, and the mesh networking would only work over a short range and if somebody else had one, which meant that feature was useless in the suburbs."
 
-+ > "This was my first big purchase in life, when I was 12. When i brought it to school, I would discover the 2 other students who also had a cybiko through its wireless network, and chat and play games with them. It was really cool and a special club to be in."
+> "This was my first big purchase in life, when I was 12. When i brought it to school, I would discover the 2 other students who also had a cybiko through its wireless network, and chat and play games with them. It was really cool and a special club to be in."
 
-+ > "That was something I was hoping we will get on Apple Watch walkie-talkie feature. Unfortunately the features depends on having a stable internet connection and never worked for me reliably. The world needs more P2P."
+> "That was something I was hoping we will get on Apple Watch walkie-talkie feature. Unfortunately the features depends on having a stable internet connection and never worked for me reliably. The world needs more P2P."
 
-+ > "It's amazing how P2P basically doesn't exist anywhere. Open source got taken over completely by federated/self hosted, or Blockchain. We have really good long range Bluetooth and LoRa and yet there is not one decent affordable alternative to decades old analog FRS after all this time."
+> "It's amazing how P2P basically doesn't exist anywhere. Open source got taken over completely by federated/self hosted, or Blockchain. We have really good long range Bluetooth and LoRa and yet there is not one decent affordable alternative to decades old analog FRS after all this time."
 
-+ > "It is like a crime against all of technology that there is no equivalent of this today.
+> "It is like a crime against all of technology that there is no equivalent of this today.
 We have smartphones, but battery life sucks and they have no real local mesh support, and no expansion port. We have lots of dev boards, but no real finished products without exposed PCBs, and with a proper app-capable OS. And the ones that are reasonably polished are far too expensive for a semi-novelty. The closest is maybe... pwnagotchi? A graphing calc?
 
-+ > "I just want like, a little ESP32 handheld, with an m.2 slot or something in the traditional place for cartridges, and the ability to run apps from files on SD cards(Even if they're just MicroPythons). But somehow all the "Hacker's handhelds" and the like seem to go nowhere, and are basically just an Arduino with a screen, meanwhile phones never get the expansion pack and local mesh capabilities the cybiko had. Cybiko was a lot of fun. It would have been better with some AAA games, but it was still awesome."
+> "I just want like, a little ESP32 handheld, with an m.2 slot or something in the traditional place for cartridges, and the ability to run apps from files on SD cards(Even if they're just MicroPythons). But somehow all the "Hacker's handhelds" and the like seem to go nowhere, and are basically just an Arduino with a screen, meanwhile phones never get the expansion pack and local mesh capabilities the cybiko had. Cybiko was a lot of fun. It would have been better with some AAA games, but it was still awesome."
 
 
 
 ### Links to feedback
-https://www.youtube.com/watch?v=ojatBoMZubk
-https://news.ycombinator.com/item?id=30485353
++ https://www.youtube.com/watch?v=ojatBoMZubk
++ https://news.ycombinator.com/item?id=30485353
 
 
 
