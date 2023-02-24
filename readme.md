@@ -585,14 +585,14 @@ Costs ~100 EUR
 + https://markqvist.github.io/Reticulum
 
 ### LVGL menus and operating system
-// wifi and status bar
-+ https://www.youtube.com/watch?v=r62vfOhWXeo
-+ https://github.com/0015/ThatProject/tree/master/ESP32_LVGL/LVGL8/3_BaseProject_Network_Selector
-// tutorial explaining LVGL menus and status bar
-+ https://www.youtube.com/watch?v=CfsUQE495iA
-// excellent phone-like menu
-+ https://www.youtube.com/watch?v=HOP7OMvAePs
-+ https://github.com/fbiego/Lumia-ESP32
++ wifi and status bar
+  + https://www.youtube.com/watch?v=r62vfOhWXeo
+  + https://github.com/0015/ThatProject/tree/master/ESP32_LVGL/LVGL8/3_BaseProject_Network_Selector
++ tutorial explaining LVGL menus and status bar
+  + https://www.youtube.com/watch?v=CfsUQE495iA
++ excellent phone-like menu
+  + https://www.youtube.com/watch?v=HOP7OMvAePs
+  + https://github.com/fbiego/Lumia-ESP32
 
 
 
