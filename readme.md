@@ -23,10 +23,10 @@ A radio station/receiver that is free and provides the following features:
 + Local temperature/humidity
 + Make payments with cryptocurrencies (monero, beam tokens, LN)
 + Web pages with templates (to showcase local communities in the area)
-++ Individual profile
-++ House profile
-++ Community/orgs profile
-++ Include other contacts (phone, address, coordinates, etc.)
+  + Individual profile
+  + House profile
+  + Community/orgs profile
+  + Include other contacts (phone, address, coordinates, etc.)
 + Library (books, manuals, movies by topics)
 
 
@@ -70,16 +70,16 @@ The preferred screen is ePaper to keep the information visible 24/7 without dist
 
 + Touch screen
 + TFT display initially
-++ E-ink preference
+  + E-ink preference
 + Wooden box
 + Rechargeable AA batteries (x4)
 + Network cable to connect antenna/power
-++ when antennas are at long distance (e.g. rooftop)
+  + when antennas are at long distance (e.g. rooftop)
 + Speaker
 + Microphone
 + Play radio, music
-++ web radio
-++ local music collection
+  + web radio
+  + local music collection
 
 
 ## Solar gateway
@@ -103,7 +103,7 @@ Features:
 + GPS module
 + Measurement of temperature/humidity
 + MPTT with USB output
-++ As this is expensive, a small circuit is more cost-effective
+  + As this is expensive, a small circuit is more cost-effective
 + Camera to take local photos of nature/view
 + Battery for 3 days without sun
 + Measurement of temperature, humidity, solar exposure
@@ -121,24 +121,24 @@ Characteristics:
 + Transparent plastic to protect screen
 + push buttons also in wood
 + powered by two AA rechargeable batteries
-++ possibly three AAA to provide 4.5 V
+  + possibly three AAA to provide 4.5 V
 + e-Ink display
-++ with backlight
-++ initially TFT (cheaper cost)
+  + with backlight
+  + initially TFT (cheaper cost)
 + Solar panel
-++ enough to charge the two batteries
-++ protected by transparent plastic
+  + enough to charge the two batteries
+  + protected by transparent plastic
 
-### front lights/sensors
+### Front lights/sensors
 + flashlight (programable multi-color led)
 + uvc led (germ sterilization)
 + infrared receiver/emitter (for TV control)
 + led laser pointer
 + PIR Motion Sensor
-x night vision camera
-++ price goes over 100 EUR budget
++ night vision camera
+  + price goes over 100 EUR budget
 + lightning detector?
-++ price is around 25 EUR, users can choose
+  + price is around 25 EUR, users can choose
 
 + microphone
 + speaker with loud speaker mode
@@ -148,7 +148,7 @@ x night vision camera
 + wifi / bluetooth
 + usb-c for charging
 + aim for visually impaired support
-++ voice recognition and text to voice
+  + voice recognition and text to voice
 + vibration motor for notifications
 + vibration sensor
 x super-capacitor as backup battery
@@ -157,9 +157,9 @@ x super-capacitor as backup battery
 ### Expansion ports
 + extension port available (molex with DAC)
 + external connection pins available
-++ possibly reuse USB connector
-++ or make available 3 pins (1 clock, 2 for voltage)
-++ expand to other devices
+  + possibly reuse USB connector
+  + or make available 3 pins (1 clock, 2 for voltage)
+  + expand to other devices
 
 
 ### Outside handheld shell
@@ -168,7 +168,7 @@ x super-capacitor as backup battery
 + middle face with plastic that shines in dark
 + metal screws for opening and closening
 + transparent plastic for scratch protection
-++ protect display, solar panel, lights
+  + protect display, solar panel, lights
 + lid for water protection on usb charger
 
 ### Handheld Keyboard
@@ -190,10 +190,10 @@ x super-capacitor as backup battery
 ### App: Installer
 + similar to apt-get and Android Play store
 + common text files and tutorials
-++ available from the gateway
+  + available from the gateway
 + HTML-based documents
-++ include text
-++ include images/animations
+  + include text
+  + include images/animations
 + choose regions/favorites
 + Install/update/remove apps
 + Can install from 3rd party
@@ -203,21 +203,21 @@ x super-capacitor as backup battery
 + configure settings
 + choose language/region/time fuse
 + define privacy permissions
-++ e.g. visible to others/contacts
+  + e.g. visible to others/contacts
 + define password
 + customize sounds/themes/actions
 + change power settings
-++ e.g. disable Wifi/Bluetooth modules
+  + e.g. disable Wifi/Bluetooth modules
 + option to act as gateway repeater
-++ battery intensive option
+  + battery intensive option
 
 ### App: Files
 + can read/write text files
-++ optionally simple excel/csv files
+  + optionally simple excel/csv files
 + Play media files (images, music)
 + Share files with nearby contacts
 + Synchronize selected files/folders
-++ with contacts
+  + with contacts
 
 ### App: Walkie-talkie
 + choose a contact
@@ -226,11 +226,11 @@ x super-capacitor as backup battery
 
 ### App: Navigator
 + See people/devices nearby
-++ lists distance to contacts nearby
+  + lists distance to contacts nearby
 + Places nearby
-++ uses curated list of places on region
+  + uses curated list of places on region
 + show distance and orientation
-++ initially not realtime
+  + initially not realtime
 
 ### App: Email
 + worldwide coverage
@@ -241,11 +241,11 @@ x super-capacitor as backup battery
 
 ### App: Chat
 + Chat with nearby/available users
-++ group chats
-++ notifications
+  + group chats
+  + notifications
 + communicate offline to other messengers at reach
-++ without LoRaWan gateway when not available/desired
-++ prefers direct link when contacts are at reach
+  + without LoRaWan gateway when not available/desired
+  + prefers direct link when contacts are at reach
 + send/share files/folders through chat
 
 ### App: Media player
@@ -269,36 +269,36 @@ x super-capacitor as backup battery
 
 ### App: Wifi
 + Hotspot
-++ share files through wifi
-++ web browser with region services
-++ chat
-++ news
+  + share files through wifi
+  + web browser with region services
+  + chat
+  + news
 + use local wifi to reach gateway
-++ useful when away from LoRa network
-++ preference to LoRa when available
-++ auto-connect to known wifis
-++ global wifi login functionality
+  + useful when away from LoRa network
+  + preference to LoRa when available
+  + auto-connect to known wifis
+  + global wifi login functionality
 
 ### App: Radio
 + listen to FM radio
-++ automatically search and add list with RDS
+  + automatically search and add list with RDS
 + listen to LoRa radio stations
-++ fixed channel emission
+  + fixed channel emission
 
 ### App: TV remote
 + create TV remotes
-++ learn IR buttons
-++ play IR buttons
+  + learn IR buttons
+  + play IR buttons
 
 ### App: Automation
 + macro functions
-++ press remote control button from TV
-++ perform specific action
-++ e.g. send message on specific chat
-++ play a music playlist
-++ turn off lights
+  + press remote control button from TV
+  + perform specific action
+  + e.g. send message on specific chat
+  + play a music playlist
+  + turn off lights
 + shake phone
-++ activate button or action
+  + activate button or action
 + motion detection with IR receiver/sender
 + make device speak specific texts
 
@@ -308,8 +308,8 @@ x super-capacitor as backup battery
 + permit remote session (e.g. telenet)
 + text files with scripting language
 + use available sensors
-++ either directly from pin output
-++ or using alias for defined sensors
+  + either directly from pin output
+  + or using alias for defined sensors
 
 
 # Apps (goodies)
@@ -322,8 +322,8 @@ x super-capacitor as backup battery
 
 ### App: Geocaching
 + submit geocaching places to discover
-++ include description/difficulty
-++ update status (active, inactive)
+  + include description/difficulty
+  + update status (active, inactive)
 + log discovery by user
 + give score
 + add comments
@@ -332,26 +332,26 @@ x super-capacitor as backup battery
 + see news from contacts and region
 + twitter-like announcents, comments and votes
 + submit events
-++ set reminders (for day/hour)
-++ rate event
-++ permit recurring periodic events
-++ add ratings/comments
+  + set reminders (for day/hour)
+  + rate event
+  + permit recurring periodic events
+  + add ratings/comments
 
 ### App: Podcast
 + hear podcasts
-++ from contacts, topics, regions
+  + from contacts, topics, regions
 + editor for creating podcasts
-++ can include start/ending sequence
-++ include sound effects while recording
-++ can include summary before intro sound
-++ image cover for screenshot
+  + can include start/ending sequence
+  + include sound effects while recording
+  + can include summary before intro sound
+  + image cover for screenshot
 + Whisper on gateway-level
-++ create subtitles/text version
-++ create translations
+  + create subtitles/text version
+  + create translations
 + include tags (region, date, topics, age level)
 + add feedback (likes, #plays, comments)
 + set time limits (e.g. 5 minutes)
-++ visualize time progress
+  + visualize time progress
 + includecontroller podcast tips
 
 ### App: Games
@@ -369,12 +369,12 @@ x super-capacitor as backup battery
 + Possibly other coins
 + synchronizes to region server
 + Receive payments
-++ generate QR code on screen
-++ connect through NFC
-++ show equivalent in local fiat currency
+  + generate QR code on screen
+  + connect through NFC
+  + show equivalent in local fiat currency
 + Make payments
-++ through NFC contact
-++ through chat message
+  + through NFC contact
+  + through chat message
 
 ### App: Weather
 + temperature on nearby stations
@@ -386,8 +386,8 @@ x super-capacitor as backup battery
 + Countdown and stopwatch timers
 + Wake up Alarm
 + Synchronized timer
-++ synchronize with selected contacts
-++ joint warning/notifications
+  + synchronize with selected contacts
+  + joint warning/notifications
 
 ### App: Extras
 + Laser pointer
@@ -400,23 +400,23 @@ x super-capacitor as backup battery
 
 ### App: Third-party hardware integration
 + Garmin
-++ Send map location to Garmin
-++ receive text notifications on Garmin
+  + Send map location to Garmin
+  + receive text notifications on Garmin
 
 ### App: Third-party software integration
 + Telegram (read/write messages)
 + IRC (read/write messages)
-++ keep-alive, auto-register/login
+  + keep-alive, auto-register/login
 + email (read/write messages)
-++ based on IMAP
+  + based on IMAP
 + nostr, twitter and mastodon instances
-++ read/write/fav/retweet posts
+  + read/write/fav/retweet posts
 
 ### App: Chatbot
-++ Connect to chatGPT
-++ answer to voice questions from user
-++ translate text
-++ send reply as text message
+  + Connect to chatGPT
+  + answer to voice questions from user
+  + translate text
+  + send reply as text message
 
 ### App: Wallpaper
 + show time, temperature average
@@ -603,20 +603,20 @@ https://www.patrick-breyer.de/en/posts/chat-control/
 
 ### Types of device models
 + M = mobile handheld
-++ MM = mobile minimal
-++ ME = mobile e-paper
-++ MW = mobile wrist
+  + MM = mobile minimal
+  + ME = mobile e-paper
+  + MW = mobile wrist
 + H = home/house
 + A = Auto/wheels
-++ AUTO = cars
-++ AM = motorbikes
-++ AB = bikes
+  + AUTO = cars
+  + AM = motorbikes
+  + AB = bikes
 + A = airplane/flying
-++ AIR = airplane
-++ AD = drone
+  + AIR = airplane
+  + AD = drone
 + N = nautic
-++ NV = vessel
-++ NS = submarine
+  + NV = vessel
+  + NS = submarine
 + G = gateway/repeater
 + S = server/bridge
 + B = beacon
@@ -633,18 +633,20 @@ Radio3 ME-1.0
 
 # Feedback
 
-+ "The glaring problem, sadly, is that there's nothing you can actually _do_ with it. There were no games of any quality, and the mesh networking would only work over a short range and if somebody else had one, which meant that feature was useless in the suburbs."
+Feedback collected from people around the internet about this kind of device.
 
-+ "This was my first big purchase in life, when I was 12. When i brought it to school, I would discover the 2 other students who also had a cybiko through its wireless network, and chat and play games with them. It was really cool and a special club to be in."
++ > "The glaring problem, sadly, is that there's nothing you can actually _do_ with it. There were no games of any quality, and the mesh networking would only work over a short range and if somebody else had one, which meant that feature was useless in the suburbs."
 
-+ "That was something I was hoping we will get on Apple Watch walkie-talkie feature. Unfortunately the features depends on having a stable internet connection and never worked for me reliably. The world needs more P2P."
++ > "This was my first big purchase in life, when I was 12. When i brought it to school, I would discover the 2 other students who also had a cybiko through its wireless network, and chat and play games with them. It was really cool and a special club to be in."
 
-+ "It's amazing how P2P basically doesn't exist anywhere. Open source got taken over completely by federated/self hosted, or Blockchain. We have really good long range Bluetooth and LoRa and yet there is not one decent affordable alternative to decades old analog FRS after all this time."
++ > "That was something I was hoping we will get on Apple Watch walkie-talkie feature. Unfortunately the features depends on having a stable internet connection and never worked for me reliably. The world needs more P2P."
 
-+ "It is like a crime against all of technology that there is no equivalent of this today.
++ > "It's amazing how P2P basically doesn't exist anywhere. Open source got taken over completely by federated/self hosted, or Blockchain. We have really good long range Bluetooth and LoRa and yet there is not one decent affordable alternative to decades old analog FRS after all this time."
+
++ > "It is like a crime against all of technology that there is no equivalent of this today.
 We have smartphones, but battery life sucks and they have no real local mesh support, and no expansion port. We have lots of dev boards, but no real finished products without exposed PCBs, and with a proper app-capable OS. And the ones that are reasonably polished are far too expensive for a semi-novelty. The closest is maybe... pwnagotchi? A graphing calc?
 
-+ I just want like, a little ESP32 handheld, with an m.2 slot or something in the traditional place for cartridges, and the ability to run apps from files on SD cards(Even if they're just MicroPythons). But somehow all the "Hacker's handhelds" and the like seem to go nowhere, and are basically just an Arduino with a screen, meanwhile phones never get the expansion pack and local mesh capabilities the cybiko had. Cybiko was a lot of fun. It would have been better with some AAA games, but it was still awesome."
++ > "I just want like, a little ESP32 handheld, with an m.2 slot or something in the traditional place for cartridges, and the ability to run apps from files on SD cards(Even if they're just MicroPythons). But somehow all the "Hacker's handhelds" and the like seem to go nowhere, and are basically just an Arduino with a screen, meanwhile phones never get the expansion pack and local mesh capabilities the cybiko had. Cybiko was a lot of fun. It would have been better with some AAA games, but it was still awesome."
 
 
 
@@ -660,9 +662,9 @@ https://news.ycombinator.com/item?id=30485353
 
 ## Feedback
 
-2023-02-24: TFT kit arrived and worked as expected. The kit model is ESP32-2432S028R from https://www.aliexpress.com/item/1005004913471113.html for 15,29€ that includes shipping. Software is difficult to obtain and poorly documented but was collected on the radio3 repositories.
++ 2023-02-24: TFT kit arrived and worked as expected. The kit model is ESP32-2432S028R from https://www.aliexpress.com/item/1005004913471113.html for 15,29€ that includes shipping. Software is difficult to obtain and poorly documented but was collected on the radio3 repositories.
 
-2023-01-27: ePaper kit was experimented, but the screen refresh rate was not satisfactory for usage with LVGL. Alternative is using a TFT based screen which is cheaper (~15 euros) and comes with an LVGL demo by default (fit for purpose)
++ 2023-01-27: ePaper kit was experimented, but the screen refresh rate was not satisfactory for usage with LVGL. Alternative is using a TFT based screen which is cheaper (~15 euros) and comes with an LVGL demo by default (fit for purpose)
 
 
 
