@@ -530,8 +530,9 @@ Costs ~100 EUR
 ### Compile Java code to run on arduino
 + https://developer.microej.com/microej-sdk-software-development-kit/
 
-### Compile C code to run on ESP32
+### Compile/script C code to run on ESP32
 + https://www.codeproject.com/Articles/5061494/Run-a-C-Language-Interpreter-on-Your-ESP32
++ https://github.com/sellicott/tcc-riscv32
 
 ### Virtual Machines for ESP32
 + https://github.com/toitlang/jaguar
