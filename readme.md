@@ -533,14 +533,25 @@ Costs ~100 EUR
 ### Compile C code to run on ESP32
 + https://www.codeproject.com/Articles/5061494/Run-a-C-Language-Interpreter-on-Your-ESP32
 
-### Virtual Machines
+### Virtual Machines for ESP32
++ https://github.com/toitlang/jaguar
 + https://github.com/juiceRv/JuiceVm
-+ https://github.com/fdivitto/FabGL
 + https://haiku-vm.sourceforge.net/
++ https://github.com/TOPLLab/WARDuino
++ https://dmitry.gr/?r=05.Projects&proj=12.%20uJ%20-%20a%20micro%20JVM
++ https://blog.toit.io/why-doesnt-v8-fit-on-my-microcontroller-71dc6e2d8f5c
 
 ### Bash environment on ESP
 + https://github.com/dani007200964/Shellminator
 + http://sebastian-duell.de/en/microbox/usage.html
+
+### Scripting languages
++ https://github.com/berry-lang/berry (C/Java alike)
++ https://github.com/micropython/micropython
++ https://www.espruino.com/ (javascript)
++ https://github.com/edmundmk/kenaf (LUA alike)
++ https://eluaproject.net/ (LUA scripting language)
++ https://www.embedvm.com/ (C alike)
 
 ### SSH server/client in ESP32
 + https://registry.platformio.org/libraries/ewpa/LibSSH-ESP32
