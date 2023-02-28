@@ -541,10 +541,8 @@ Costs ~100 EUR
 + https://github.com/TOPLLab/WARDuino
 + https://dmitry.gr/?r=05.Projects&proj=12.%20uJ%20-%20a%20micro%20JVM
 + https://blog.toit.io/why-doesnt-v8-fit-on-my-microcontroller-71dc6e2d8f5c
-
-### Bash environment on ESP
-+ https://github.com/dani007200964/Shellminator
-+ http://sebastian-duell.de/en/microbox/usage.html
++ https://github.com/atomvm/AtomVM
++ https://github.com/Moddable-OpenSource/moddable
 
 ### Scripting languages
 + https://github.com/berry-lang/berry (C/Java alike)
@@ -553,6 +551,13 @@ Costs ~100 EUR
 + https://github.com/edmundmk/kenaf (LUA alike)
 + https://eluaproject.net/ (LUA scripting language)
 + https://www.embedvm.com/ (C alike)
+
+# Operating system for ESP32
++ https://github.com/AlixANNERAUD/Xila
++ https://github.com/renamedquery/esp32-pc
++ https://github.com/PQCraft/EZBCOS
++ https://github.com/botofancalin/M5Stack-MultiApp-Advanced
++ https://github.com/sukesh-ak/ESP32-TUX/
 
 ### SSH server/client in ESP32
 + https://registry.platformio.org/libraries/ewpa/LibSSH-ESP32
@@ -566,14 +571,9 @@ Costs ~100 EUR
 ### VNC and multi-environment
 + https://github.com/0015/ESP32Berry
 
-
-# Operating system for ESP32
-+ https://github.com/AlixANNERAUD/Xila
-+ https://github.com/renamedquery/esp32-pc
-+ https://github.com/PQCraft/EZBCOS
-+ https://github.com/botofancalin/M5Stack-MultiApp-Advanced
-
-
+### Bash environment on ESP
++ https://github.com/dani007200964/Shellminator
++ http://sebastian-duell.de/en/microbox/usage.html
 
 
 # Other links
