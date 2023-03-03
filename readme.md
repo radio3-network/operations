@@ -448,47 +448,78 @@ x super-capacitor as backup battery
 
 # ESP32 software available today
 
+## Network
+
 ### LoraWan standalone server
 + https://github.com/xoseperez/standalone-lorawan-gateway-balena
 + https://www.chirpstack.io/
 
-### Updates OTA for ESP32
-+ https://hackaday.com/2022/12/13/push-esp32-over-the-air-updates-from-github/
-
 ### ESP32 as LoRaWan gateway
 + https://emanuelepagliari.it/2020/10/12/how-to-build-lorawan-gateway-heltec-esp32-lora/
 
-### ExFat support on ESP32
-+ http://elm-chan.org/fsw/ff/00index_e.html
+### Sub-gHz antenna modulation
++ https://github.com/antirez/protoview
 
-### Voice recording/playback
-+ https://en.wikipedia.org/wiki/Opus_(audio_format)
-+ https://github.com/mkopa/opus-codec-arduino
+### ESP32 walkie-talkie with data
++ https://github.com/MordFIdel/SOCORAD32
 
-### Anti-teenager sound:
-+ https://www.youtube.com/watch?v=MbYKhEtCRIs
+### Sat transceiver
++ https://www.sparkfun.com/products/21287
++ https://swarm.space/product/swarm-asset-tracker/
++ https://othernet.is
+
+### Autonomous network
++ https://unsigned.io/website/rnode/
++ https://reticulum.network/
++ https://github.com/markqvist/lxmf
++ https://github.com/markqvist/nomadnet
++ https://markqvist.github.io/Reticulum
+
+
+## Development
+
+### Arduino simulator
++ https://wokwi.com/
+
+### Updates OTA for ESP32
++ https://hackaday.com/2022/12/13/push-esp32-over-the-air-updates-from-github/
+
+### Flash Arduino using Java
++ https://www.esp32.com/viewtopic.php?t=13853
+
+### Running .NET on ESP32
++ https://sandervandevelde.wordpress.com/2022/12/15/fun-with-nanoframework-running-net-charp-on-esp32/
+
+
+## Graphics
 
 ### Menu library for Arduino/RTos
 + https://lvgl.io/
 + https://github.com/davetcc/tcMenu
 + http://embeddedlightning.com/ugui/
 
-### Sub-gHz antenna modulation
-+ https://github.com/antirez/protoview
+### LVGL menus and operating system
++ wifi and status bar
+  + https://www.youtube.com/watch?v=r62vfOhWXeo
+  + https://github.com/0015/ThatProject/tree/master/ESP32_LVGL/LVGL8/3_BaseProject_Network_Selector
++ tutorial explaining LVGL menus and status bar
+  + https://www.youtube.com/watch?v=CfsUQE495iA
++ excellent phone-like menu
+  + https://www.youtube.com/watch?v=HOP7OMvAePs
+  + https://github.com/fbiego/Lumia-ESP32
+
+
+## Displays
+
+### Creating VGA signal by cable
++ https://github.com/bitluni/ESP32VGA
++ https://github.com/marciot/ESP32CompositeColorVideo
 
 ### Creating TV signal by cable (good for games)
 + https://bitluni.net/esp32-composite-video
 
 ### More recent TV signal method:
 + https://github.com/aquaticus/esp32_composite_video_lib
-
-### Creating VGA signal by cable
-+ https://github.com/bitluni/ESP32VGA
-+ https://github.com/marciot/ESP32CompositeColorVideo
-
-### AM radio transmitter (no extra hardware)
-+ https://github.com/bitluni/ESP32AMRadioTransmitter
-+ https://bitluni.net/am-radio-transmitter
 
 ### Broadcasting TV signal
 + https://github.com/cnlohr/channel3
@@ -498,6 +529,21 @@ x super-capacitor as backup battery
 + https://github.com/xavery/ttxinfo
 + https://github.com/debackerl/telxcc
 
+
+## Radio
+
+### AM radio transmitter (no extra hardware)
++ https://github.com/bitluni/ESP32AMRadioTransmitter
++ https://bitluni.net/am-radio-transmitter
+
+### VHF/UHF transceiver
+Costs ~100 EUR
++ https://www.kickstarter.com/projects/749835103/hamshield-for-arduino-vhf-uhf-transceiver
++ https://www.hobbypcb.com/products/uhf-vhf-radio/rs-uv3a
+
+
+## Electronic tools
+
 ### Oscilloscope
 + https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope
 
@@ -506,10 +552,11 @@ x super-capacitor as backup battery
 + https://github.com/gavinlyonsrepo/LCR_meter
 + https://github.com/YordanYanakiev/LC-Fr-Meter-for-ESP32
 
-### VHF/UHF transceiver
-Costs ~100 EUR
-+ https://www.kickstarter.com/projects/749835103/hamshield-for-arduino-vhf-uhf-transceiver
-+ https://www.hobbypcb.com/products/uhf-vhf-radio/rs-uv3a
+### OBD2 car diagnostics
++ https://github.com/meatpiHQ/wican-fw
+
+
+## Emulators
 
 ### Emulate DOS/FreeDOS on ESP32
 + http://www.fabglib.org/index.html
@@ -524,15 +571,18 @@ Costs ~100 EUR
 + https://www.youtube.com/watch?v=y6PP_IBbOTY
 + https://github.com/jkirsons/doom-espidf
 
-### Flash Arduino using Java
-+ https://www.esp32.com/viewtopic.php?t=13853
 
-### Compile Java code to run on arduino
-+ https://developer.microej.com/microej-sdk-software-development-kit/
+## Internal compilers and scripts
 
 ### Compile/script C code to run on ESP32
 + https://www.codeproject.com/Articles/5061494/Run-a-C-Language-Interpreter-on-Your-ESP32
 + https://github.com/sellicott/tcc-riscv32
+
+### Compile Java code to run on arduino
++ https://developer.microej.com/microej-sdk-software-development-kit/
+
+
+## Virtualization
 
 ### Virtual Machines for ESP32
 + https://github.com/toitlang/jaguar
@@ -552,15 +602,29 @@ Costs ~100 EUR
 + https://eluaproject.net/ (LUA scripting language)
 + https://www.embedvm.com/ (C alike)
 
-# Operating system for ESP32
+### Operating system for ESP32
++ https://nuttx.apache.org/
 + https://github.com/AlixANNERAUD/Xila
 + https://github.com/renamedquery/esp32-pc
 + https://github.com/PQCraft/EZBCOS
 + https://github.com/botofancalin/M5Stack-MultiApp-Advanced
 + https://github.com/sukesh-ak/ESP32-TUX/
 
+### Bash environment on ESP
++ https://github.com/dani007200964/Shellminator
++ http://sebastian-duell.de/en/microbox/usage.html
+
+
+## Kernel features
+
+### ExFat support on ESP32
++ http://elm-chan.org/fsw/ff/00index_e.html
+
 ### SSH server/client in ESP32
 + https://registry.platformio.org/libraries/ewpa/LibSSH-ESP32
+
+
+## Cybersec
 
 ### ESP32 deauther
 + https://github.com/GANESH-ICMC/esp32-deauther
@@ -571,40 +635,34 @@ Costs ~100 EUR
 ### VNC and multi-environment
 + https://github.com/0015/ESP32Berry
 
-### Bash environment on ESP
-+ https://github.com/dani007200964/Shellminator
-+ http://sebastian-duell.de/en/microbox/usage.html
+### Wireguard
++ https://github.com/ciniml/WireGuard-ESP32-Arduino
+
+### Multiple offensive tools
++ https://github.com/justcallmekoko/ESP32Marauder/
+
 
 
 # Other links
 
-### Arduino simulator
-+ https://wokwi.com/
+## Voice
+
+### Voice recording/playback
++ https://en.wikipedia.org/wiki/Opus_(audio_format)
++ https://github.com/mkopa/opus-codec-arduino
+
+### Voice recognition/assistant
++ https://github.com/espressif/esp-skainet
 
 ### Home automation
 + https://esphome.io/
++ https://esphome.github.io/bluetooth-proxies/
 
-### Sat transceiver
-+ https://www.sparkfun.com/products/21287
-+ https://swarm.space/product/swarm-asset-tracker/
-+ https://othernet.is
 
-### Autonomous network
-+ https://unsigned.io/website/rnode/
-+ https://reticulum.network/
-+ https://github.com/markqvist/lxmf
-+ https://github.com/markqvist/nomadnet
-+ https://markqvist.github.io/Reticulum
+## Misc
 
-### LVGL menus and operating system
-+ wifi and status bar
-  + https://www.youtube.com/watch?v=r62vfOhWXeo
-  + https://github.com/0015/ThatProject/tree/master/ESP32_LVGL/LVGL8/3_BaseProject_Network_Selector
-+ tutorial explaining LVGL menus and status bar
-  + https://www.youtube.com/watch?v=CfsUQE495iA
-+ excellent phone-like menu
-  + https://www.youtube.com/watch?v=HOP7OMvAePs
-  + https://github.com/fbiego/Lumia-ESP32
+### Anti-teenager sound (entertainment)
++ https://www.youtube.com/watch?v=MbYKhEtCRIs
 
 
 
