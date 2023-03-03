@@ -642,8 +642,11 @@ Costs ~100 EUR
 + https://github.com/justcallmekoko/ESP32Marauder/
 
 
-
 # Other links
+
+## Cryptocurrencies
++ https://github.com/revoxhere/duino-coin
++ https://github.com/Eroic/ESP32_Bitcoin
 
 ## Voice
 
