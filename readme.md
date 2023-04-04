@@ -330,7 +330,7 @@ x super-capacitor as backup battery
 
 ### App: News
 + see news from contacts and region
-+ twitter-like announcents, comments and votes
++ twitter-like announcements, comments and votes
 + submit events
   + set reminders (for day/hour)
   + rate event
@@ -352,7 +352,7 @@ x super-capacitor as backup battery
 + add feedback (likes, #plays, comments)
 + set time limits (e.g. 5 minutes)
   + visualize time progress
-+ includecontroller podcast tips
+
 
 ### App: Games
 + Snake
@@ -475,6 +475,8 @@ x super-capacitor as backup battery
 + https://github.com/markqvist/nomadnet
 + https://markqvist.github.io/Reticulum
 
+### USB host
++ https://github.com/sdima1357/esp32_usb_soft_host
 
 ## Development
 
@@ -497,6 +499,7 @@ x super-capacitor as backup battery
 + https://lvgl.io/
 + https://github.com/davetcc/tcMenu
 + http://embeddedlightning.com/ugui/
++ https://github.com/ImpulseAdventure/GUIslice
 
 ### LVGL menus and operating system
 + wifi and status bar
@@ -515,6 +518,9 @@ x super-capacitor as backup battery
 + https://github.com/bitluni/ESP32VGA
 + https://github.com/marciot/ESP32CompositeColorVideo
 
+### Control VGA/HDMI devices (power, brightness)
++ https://github.com/tttttx2/ddcvcp
+
 ### Creating TV signal by cable (good for games)
 + https://bitluni.net/esp32-composite-video
 
@@ -529,6 +535,9 @@ x super-capacitor as backup battery
 + https://github.com/xavery/ttxinfo
 + https://github.com/debackerl/telxcc
 
+### HDMI adapter for ESP32
++ https://github.com/techtoys/HDMI-Shield/tree/master/Ra8876_Lite
+
 
 ## Radio
 
@@ -540,6 +549,16 @@ x super-capacitor as backup battery
 Costs ~100 EUR
 + https://www.kickstarter.com/projects/749835103/hamshield-for-arduino-vhf-uhf-transceiver
 + https://www.hobbypcb.com/products/uhf-vhf-radio/rs-uv3a
+
+
+## Bluetooth
++ https://github.com/T-vK/ESP32-BLE-Keyboard (ESP32 as bluetooth keyboard)
++ https://github.com/T-vK/ESP32-BLE-Mouse (ESP32 as bluetooth mouse)
+
+
+## Infrared
++ https://github.com/Arduino-IRremote/Arduino-IRremote
++ https://github.com/DjordjeMandic/Universal-IR-Blaster-TV-B-Gone
 
 
 ## Electronic tools
@@ -582,6 +601,13 @@ Costs ~100 EUR
 + https://developer.microej.com/microej-sdk-software-development-kit/
 
 
+## Boot and binary loaders
++ https://github.com/sookmook/OTA_basic
++ https://baldwisdom.com/bootdrive/
++ https://arduino.stackexchange.com/questions/19489/load-arduino-flash-code-from-sd-card
++ https://stackoverflow.com/questions/36100030/run-arduino-sketch-from-an-sd-card
+
+
 ## Virtualization
 
 ### Virtual Machines for ESP32
@@ -594,6 +620,10 @@ Costs ~100 EUR
 + https://github.com/atomvm/AtomVM
 + https://github.com/Moddable-OpenSource/moddable
 
+### Generic virtual machines emulators
++ https://github.com/drorgl/esp32-tinyemu (runs linux)
++ https://github.com/LekKit/RVVM
+
 ### Scripting languages
 + https://github.com/berry-lang/berry (C/Java alike)
 + https://github.com/micropython/micropython
@@ -601,6 +631,8 @@ Costs ~100 EUR
 + https://github.com/edmundmk/kenaf (LUA alike)
 + https://eluaproject.net/ (LUA scripting language)
 + https://www.embedvm.com/ (C alike)
++ https://github.com/cesanta/mjs
++ https://github.com/robinhedwards/ArduinoBASIC (Basic)
 
 ### Operating system for ESP32
 + https://nuttx.apache.org/
@@ -609,6 +641,10 @@ Costs ~100 EUR
 + https://github.com/PQCraft/EZBCOS
 + https://github.com/botofancalin/M5Stack-MultiApp-Advanced
 + https://github.com/sukesh-ak/ESP32-TUX/
++ https://github.com/embox/embox (not yet supported officialy)
++ https://mongoose-os.com/
++ https://github.com/jcmvbkbc?tab=repositories (native Linux port)
++ https://www.riot-os.org/
 
 ### Bash environment on ESP
 + https://github.com/dani007200964/Shellminator
@@ -640,6 +676,7 @@ Costs ~100 EUR
 
 ### Multiple offensive tools
 + https://github.com/justcallmekoko/ESP32Marauder/
++ https://pwnagotchi.ai/
 
 
 # Other links
@@ -653,6 +690,10 @@ Costs ~100 EUR
 ### Voice recording/playback
 + https://en.wikipedia.org/wiki/Opus_(audio_format)
 + https://github.com/mkopa/opus-codec-arduino
++ https://github.com/atomic14/diy-alexa
++ https://github.com/earlephilhower/ESP8266SAM
++ https://github.com/earlephilhower/ESP8266Audio
++ https://github.com/ArminJo/Talkie
 
 ### Voice recognition/assistant
 + https://github.com/espressif/esp-skainet
@@ -661,12 +702,36 @@ Costs ~100 EUR
 + https://esphome.io/
 + https://esphome.github.io/bluetooth-proxies/
 
+### Energy harvest (battery free)
++ https://www.freethegameboy.info/
++ https://www.hackster.io/news/andreas-eriksen-s-potatop-is-a-lisp-powered-laptop-with-a-battery-life-measured-in-years-2f5d79653f24
+
+
+## Games
+
+### Donkey kong, Pac-man, Galapa
++ https://github.com/harbaum/galagino
++ https://github.com/VolosR/M5SpaceWars
++ https://github.com/VolosR/M5StickCAlienAttack
++ https://github.com/VolosR/M5StickCPlusBrakeout
++ https://howtomechatronics.com/projects/arduino-game-project-replica-of-flappy-bird-for-arduino-on-a-tft-touch-screen/
++ https://www.instructables.com/Text-Based-Multi-Choice-Adventure-Game/
+
 
 ## Misc
+
+### SD reader with ESP32 glueds
++ https://github.com/Neutrino-1/Wireless_SD
 
 ### Anti-teenager sound (entertainment)
 + https://www.youtube.com/watch?v=MbYKhEtCRIs
 
+### Morse code learning
++ https://github.com/scottlbaker/morseKeyers
+
+### Web browsing examples
++ https://github.com/rebane2001/chanduino
++ https://libwebsockets.org/git/libwebsockets/tree/READMEs/README.html-parser.md
 
 
 # Partners
