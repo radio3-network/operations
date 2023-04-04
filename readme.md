@@ -697,6 +697,7 @@ Costs ~100 EUR
 
 ### Voice recognition/assistant
 + https://github.com/espressif/esp-skainet
++ https://github.com/ggerganov/whisper.cpp
 
 ### Home automation
 + https://esphome.io/
