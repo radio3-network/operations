@@ -626,13 +626,17 @@ Costs ~100 EUR
 
 ### Scripting languages
 + https://github.com/berry-lang/berry (C/Java alike)
++ https://github.com/jingoro2112/wrench | http://northarc.com/wrench/www/ (c-like)
 + https://github.com/micropython/micropython
 + https://www.espruino.com/ (javascript)
 + https://github.com/edmundmk/kenaf (LUA alike)
 + https://eluaproject.net/ (LUA scripting language)
 + https://www.embedvm.com/ (C alike)
-+ https://github.com/cesanta/mjs
++ https://github.com/cesanta/mjs (javascript)
++ https://github.com/sfranzyshen/ESP8266-Arduino-JavaScript (javascript)
 + https://github.com/robinhedwards/ArduinoBASIC (Basic)
++ https://github.com/wasm3/wasm3-arduino (WASM)
++ https://github.com/sinanislekdemir/minik (custom-language, line by line)
 
 ### Operating system for ESP32
 + https://nuttx.apache.org/
@@ -702,6 +706,9 @@ Costs ~100 EUR
 ### Home automation
 + https://esphome.io/
 + https://esphome.github.io/bluetooth-proxies/
+
+### Whistle recognition
++ https://github.com/hans-k/whistle-command-interpreter
 
 ### Energy harvest (battery free)
 + https://www.freethegameboy.info/
