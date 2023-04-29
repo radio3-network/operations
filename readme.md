@@ -682,6 +682,11 @@ Costs ~100 EUR
 + https://github.com/justcallmekoko/ESP32Marauder/
 + https://pwnagotchi.ai/
 
+# Offline projects
++ https://github.com/iiab (Internet in a Box)
+
+# GPS and offline maps
++ https://github.com/iiab/iiab/wiki/IIAB-Maps
 
 # Other links
 
